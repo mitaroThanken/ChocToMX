@@ -54,7 +54,7 @@ module choc_to_mx() {
 }
 
 // 複製
-mirror([0, 0, 1])
+//mirror([0, 0, 1])
     for (x = [0, 1])
         for (y = [0, 1])
             translate([(board_size[0] + 0.5) * x, (board_size[1] + 0.5) * y, 0])
