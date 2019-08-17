@@ -34,8 +34,8 @@ module plate() {
 
 // 十字部分
 
-stem_cross_length = 4.0;
-stem_cross_h      = 1.25;
+stem_cross_length = 3.80;
+stem_cross_h      = 1.10;
 stem_cross_v      = 1.10;
 stem_height       = 3.0 + (board_size[2] / 2);
 
