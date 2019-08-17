@@ -25,7 +25,7 @@ module choc_stems() {
 }
 
 // 接続部分（板）
-board_size = [10.00, 5.00, 1.50];
+board_size = [10.00, 10.00, 1.50];
 
 module plate() {
     translate([0, 0, (board_size[2] / 2) + 3.00])
